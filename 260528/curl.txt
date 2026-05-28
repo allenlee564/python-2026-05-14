@@ -1,0 +1,17 @@
+curl ^"https://www.vscinemas.com.tw/ShowTimes//ShowTimes/GetShowTimes^" ^
+  -H ^"accept: */*^" ^
+  -H ^"accept-language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -H ^"content-type: application/x-www-form-urlencoded; charset=UTF-8^" ^
+  -b ^"ASP.NET_SessionId=4ltjithqitl5qjmf4d3tg3ov; BIGipServerbzel8JBItPXJdn/VVbM1mw=^!sTw0Zakqv4NqV4hxxQB2u9Yj1bQcGSEVCaN5gFYIROQ03QYOJcpbgENvyZOqUOwYPCKbAlikh4ptmQ==; _gid=GA1.3.1318377945.1779952976; QueueITAccepted-SDFrts345E-V3_booking=EventId^%^3Dbooking^%^26RedirectType^%^3Dsafetynet^%^26IssueTime^%^3D1779953029^%^26Hash^%^3D3beea488be01506ad46c9851b1fdc1b32c285ab1c6d5e4b2f2db891157d349a6; _ga_E6VJK8YTMJ=GS2.1.s1779953029^$o1^$g1^$t1779953070^$j19^$l0^$h0; _ga=GA1.3.704448177.1779952976; _gat=1; QueueITAccepted-SDFrts345E-V3_landingpage=EventId^%^3Dlandingpage^%^26RedirectType^%^3Dsafetynet^%^26IssueTime^%^3D1779959672^%^26Hash^%^3D398b83d3ca728df6e7a9fd122641a10904d5426e9a8ae59badb2ce9872511638; RT=^\^"z=1^&dm=www.vscinemas.com.tw^&si=a8775bdd-e511-4f9d-aa22-9112e47023cc^&ss=mpp61mbx^&sl=i^&tt=64^&obo=h^&rl=1^\^"; _ga_TK62J3JZHN=GS2.3.s1779957975^$o2^$g1^$t1779959672^$j43^$l0^$h0^" ^
+  -H ^"origin: https://www.vscinemas.com.tw^" ^
+  -H ^"priority: u=1, i^" ^
+  -H ^"referer: https://www.vscinemas.com.tw/ShowTimes/^" ^
+  -H ^"sec-ch-ua: ^\^"Chromium^\^";v=^\^"148^\^", ^\^"Google Chrome^\^";v=^\^"148^\^", ^\^"Not/A)Brand^\^";v=^\^"99^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?0^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  -H ^"sec-fetch-dest: empty^" ^
+  -H ^"sec-fetch-mode: cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36^" ^
+  -H ^"x-requested-with: XMLHttpRequest^" ^
+  --data-raw ^"CinemaCode=TP^"
