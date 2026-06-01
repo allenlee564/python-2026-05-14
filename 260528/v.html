@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        const myHeaders = new Headers();
+myHeaders.append("Cookie", "BIGipServerbzel8JBItPXJdn/VVbM1mw=!wP9OFh+X75MOD2RxxQB2u9Yj1bQcGfdk1HKkdfLCZHhMrmkNO1fXLubDH+C547gWnzdF7sGbfgsEag==; QueueITAccepted-SDFrts345E-V3_landingpage=EventId%3Dlandingpage%26RedirectType%3Dsafetynet%26IssueTime%3D1779960914%26Hash%3D8270c2d5122dbd014c51ad3b44845157c78a424ebe6fab06c6a71a0be665f712");
+
+const formdata = new FormData();
+formdata.append("CinemaCode", "TP");
+
+const requestOptions = {
+  method: "POST",
+  headers: myHeaders,
+  body: formdata,
+  redirect: "follow"
+};
+
+fetch("https://www.vscinemas.com.tw/ShowTimes//ShowTimes/GetShowTimes", requestOptions)
+  .then((response) => response.text())
+  .then((result) => console.log(result))
+  .catch((error) => console.error(error));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
